@@ -3,8 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        /* 设置背景图像 */
+        body {
+            background-image: url('imgs/background.jpg');
+            background-size: cover; /* 让背景图像覆盖整个元素 */
+            background-position: center; /* 将背景图像置于元素的中心 */
+            height: 100vh; /* 设置高度为视窗的高度 */
+            margin: 0; /* 清除默认的外边距 */
+            padding: 0; /* 清除默认的内边距 */
+            background-attachment: fixed;
+        }
+        div {
+            position: absolute; /* 设置 div 元素为绝对定位 */
+            top: 50%; /* 将 div 元素向下移动一半 */
+            left: 50%; /* 将 div 元素向右移动一半 */
+            transform: translate(-50%, -50%); /* 使用 transform 属性将元素水平和垂直居中 */
+        }
+        div img {
+            width: 100px; /* 设置图片宽度为50像素 */
+            height: auto; /* 让高度按比例自动调整 */
+        }
+    </style>
 </head>
 <body>
+    <main>
+        <div>
+            <a href="https://www.youtube.com/watch?v=0tOXxuLcaog&t=3s">
+                <img src="imgs/heart.png">
+            </a>
+        </div>
+    </main>
 
 </body>
 </html>
